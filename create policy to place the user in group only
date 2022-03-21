@@ -1,0 +1,21 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": "iam:AddUserToGroup",
+            "Resource": "arn:aws:iam::936570574664:group/*"
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "iam:ListUsers",
+                "iam:ListGroups",
+                "iam:GetGroup"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
