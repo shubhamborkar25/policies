@@ -1,0 +1,41 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "iam:GetPolicy",
+                "iam:ListGroupPolicies",
+                "iam:AttachUserPolicy",
+                "iam:DeleteUser",
+                "iam:ListUserPolicies",
+                "iam:CreateUser",
+                "iam:CreateLoginProfile",
+                "iam:ListGroupsForUser",
+                "iam:AttachGroupPolicy",
+                "iam:PutUserPolicy",
+                "iam:ListAttachedUserPolicies",
+                "iam:ListAttachedGroupPolicies",
+                "iam:GetGroupPolicy",
+                "iam:GetUser",
+                "iam:PutGroupPolicy"
+            ],
+            "Resource": [
+                "arn:aws:iam::936570574664:policy/*",
+                "arn:aws:iam::936570574664:group/*",
+                "arn:aws:iam::936570574664:user/user_3"
+            ]
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "iam:ListPolicies",
+                "iam:ListUsers",
+                "iam:ListGroups"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
